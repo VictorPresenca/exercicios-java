@@ -23,6 +23,15 @@ public class Ex08While {
             digitados = scanner.nextInt();
         }
 
+        // resultados
+        if ( c <= 0) {
+            System.out.println("Sem resultados");
+        } else {
+            System.out.println("\nSoma dos digitos: " + soma);
+            System.out.println("Quantidade de números digitados " + c);
+            System.out.println("Média: " + (double) soma/c);
+        }
+
         // pseudocódigo
         //
         // escreva 'digite um número';
@@ -43,13 +52,5 @@ public class Ex08While {
         //      escreva 'soma' dividido por 'c';
         // }
 
-        // resultados
-        if ( c <= 0) {
-            System.out.println("Sem resultados");
-        } else {
-            System.out.println("\nSoma dos digitos: " + soma);
-            System.out.println("Quantidade de números digitados " + c);
-            System.out.println("Média: " + (double) soma/c);
-        }
     }
 }
